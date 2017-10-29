@@ -1,15 +1,18 @@
-html, body, {
+html {
   height: 100%;
+  background: #111 url('../img/background.jpg') no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 body {
-  margin: 0;
-  color: #FFF;
-  font: normal 16px/1.2 "Roboto", Helvetica, Arial, sans-serif;
+  height: 100%;
+  font: Helvetica, sans-serif;
   text-align: center;
   text-shadow: 1px 1px #000;
-  background: #111 url('../img/background.jpg') no-repeat center center fixed;
-  background-size: cover;
+
 }
 
 .icon {
