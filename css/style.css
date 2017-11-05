@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-align: center;
   text-shadow: 1px 1px #000;
 }
@@ -19,17 +19,59 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.icon > img {
+  height: 150px;
+  width: 150px;
+}
 
 .container {
   padding-top: 50px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgba(0,0,0,0.65);
+  padding-left: -2px;
+  padding-right: -2px;
 }
 
 .email {
   color: white;
   font-weight: 600;
   display: block;
+  font-size: 16px;
 }
 
 .second {
   padding-top: 15px;
+}
+
+@media (orientation: landscape) {
+
+  .icon {
+    top: 50%;
+  }
+
+  .container {
+    padding-top: 15px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .icon > img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+
+  .email {
+    font-size: 22px;
+  }
 }
