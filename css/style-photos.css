@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'sans-serif';
+}
+
+.mdl-grid {
+  max-width: 90%;
+}
+
+@media (min-width: 1000px) {
+  .mdl-grid {
+    max-width: 74%;
+  }
+}
+
+.mdl-card__media {
+  margin: 0;
+}
+
+.mdl-card__media>img {
+  max-width: 100%;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.7);
+}

@@ -19,7 +19,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.icon > img {
+
+.icon>img {
   height: 150px;
   width: 150px;
 }
@@ -32,9 +33,7 @@ body {
   color: white;
   font-size: 30px;
   font-weight: 600;
-  background-color: rgba(0,0,0,0.65);
-  padding-left: -2px;
-  padding-right: -2px;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .email {
@@ -48,30 +47,41 @@ body {
   padding-top: 15px;
 }
 
-@media (orientation: landscape) {
+.see-photos {
+  margin-top: 50px;
+}
 
+.btn {
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-family: monospace;
+}
+
+@media (orientation: landscape) {
   .icon {
     top: 50%;
   }
-
   .container {
     padding-top: 15px;
   }
-
 }
 
 @media (min-width: 768px) {
-
-  .icon > img {
+  .icon>img {
     height: 300px;
     width: 300px;
   }
-
   .text {
     font-size: 40px;
   }
-
   .email {
     font-size: 22px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 15px;
   }
 }
