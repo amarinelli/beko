@@ -20,7 +20,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.icon>img {
+.icon > img {
   height: 150px;
   width: 150px;
 }
@@ -29,11 +29,12 @@ body {
   padding-top: 50px;
 }
 
-.text {
+.text > p {
   color: white;
   font-size: 30px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.65);
+  font-family: 'Pacifico', cursive;
+  /*background-color: rgba(0, 0, 0, 0.65);*/
 }
 
 .email {
@@ -70,12 +71,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .icon>img {
+  .icon > img {
     height: 300px;
     width: 300px;
   }
-  .text {
-    font-size: 40px;
+  .text > p {
+    font-size: 60px;
   }
   .email {
     font-size: 22px;
