@@ -20,69 +20,42 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.icon > img {
-  height: 150px;
-  width: 150px;
+.icon>img {
+  height: 300px;
+  width: 300px;
 }
 
 .container {
   padding-top: 50px;
 }
 
-.text > p {
+.text>p {
   color: white;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 600;
   font-family: 'Pacifico', cursive;
-  /*background-color: rgba(0, 0, 0, 0.65);*/
 }
 
 .email {
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   display: block;
   font-size: 16px;
 }
 
 .second {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
-.see-photos {
-  margin-top: 50px;
-}
-
-.btn {
-  font-size: 15px;
-  background-color: white;
-  cursor: pointer;
-  border: none;
-  padding: 10px;
-  font-family: monospace;
-}
-
-@media (orientation: landscape) {
-  .icon {
-    top: 50%;
+/* @media (max-width: 900px) {
+  .icon>img {
+    height: 150px;
+    width: 150px;
   }
-  .container {
-    padding-top: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .icon > img {
-    height: 300px;
-    width: 300px;
-  }
-  .text > p {
-    font-size: 60px;
+  .text>p {
+    font-size: 30px;
   }
   .email {
     font-size: 22px;
   }
-  .btn {
-    font-size: 20px;
-    padding: 15px;
-  }
-}
+} */
