@@ -14,8 +14,9 @@ body {
 }
 
 .icon {
+  width: 90%;
   position: fixed;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -40,14 +41,14 @@ body {
   color: white;
   font-weight: 500;
   display: block;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .second {
   padding-top: 10px;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .icon>img {
     height: 150px;
     width: 150px;
@@ -56,6 +57,6 @@ body {
     font-size: 30px;
   }
   .email {
-    font-size: 22px;
+    font-size: 18px;
   }
-} */
+}
